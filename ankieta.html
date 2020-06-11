@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Osaka</title>
+    <link rel="shortcut icon" href="img/herb.svg">
+    <link rel="stylesheet" href="style.css ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="mapa.html" id="a">Mapa</a>
+        <a href="media.html" id="b">Media</a>
+        <a href="https://osaka-info.jp/en/" id="c" target=_blank>Miasto</a>
+        <a href="index.html" id="d">Powrót</a>
+    </div>
+    <div class="title">
+        <div class="herb">
+            <a href="index.html" style="cursor: pointer;"><img class="herb" src="img/herb.svg" alt="herb"></a>
+        </div>
+        <b class="city">Osaka</b>
+    </div>
+    <div class="container-ank">
+        <div style="min-width: 65vw; min-height: 35vw; margin: 5vw;">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Mężczyzna</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Kobieta</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Inna</label><br>
+            <label>Chciałbyś odwiedzieć kiedyś Osake?</label><br>
+            <input type="checkbox" id="theatre" name="theatre" value="Theatre">
+            <label for="theatre">Tak</label><br>
+            <input type="checkbox" id="cinema" name="cinema" value="Cinema">
+            <label for="cinema">Nie</label><br>
+            <input type="submit" value="Wyślij" onclick="event.preventDefault();alert('Dziękujemy za odpowiedź');">
+        </div>
+    </div>
+    <div class="foot">
+        <a id="foot">Jakub Żuk kl 2tb </a>
+    </div>
+</body>
+
+</html>
